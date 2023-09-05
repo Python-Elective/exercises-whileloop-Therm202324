@@ -1,21 +1,16 @@
 #solve Exercise 1 done
 number = 2
-
 while number <= 10:
     print(number, end=" ")
     number += 2
-
 print("Goodbye!")
 
 #solve Exercise 2 done
 number = 10
-
 print("Hello!", end=" ")
-
 while number >= 2:
     print(number, end=" ")
     number -= 2
-
 print()  # To move to the next line after the output
 
 #solve Evercise 3 done
