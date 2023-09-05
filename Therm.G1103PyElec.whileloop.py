@@ -1,17 +1,20 @@
 #solve Exercise 1 done
 x = 0
-while x < 10:
+while x >= 10:
     x = x + 2
 print(x)
 print("Goodbye!")
 
 #solve Exercise 2 done
-x = 10
-print("Hello!")
-print(x)
-while x <= 10:
-        x = x - 2
-print(x - 2)
+number = 10
+
+print("Hello!", end=" ")
+
+while number >= 2:
+    print(number, end=" ")
+    number -= 2
+
+print()  # To move to the next line after the output
 
 #solve Evercise 3 done
 end = 9
