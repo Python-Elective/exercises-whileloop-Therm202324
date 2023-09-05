@@ -1,10 +1,10 @@
 #solve Exercise 1 done
 number = 10
 
-print(end=" ", "Goodbye")
+print(end=" ")
 
 while number <= 2:
-    print(number, end=" ")
+    print(number, "Goodbye!")
     number += 2
 print()
 
