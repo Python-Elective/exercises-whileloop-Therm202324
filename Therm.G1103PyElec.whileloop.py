@@ -1,9 +1,12 @@
 #solve Exercise 1 done
-x = 0
-while x >= 10:
-    x = x + 2
-print(x)
-print("Goodbye!")
+number = 10
+
+print(end=" ", "Goodbye")
+
+while number <= 2:
+    print(number, end=" ")
+    number += 2
+print()
 
 #solve Exercise 2 done
 number = 10
