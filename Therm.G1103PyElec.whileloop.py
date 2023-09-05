@@ -9,16 +9,12 @@ print("Goodbye!")
 
 #solve Exercise 2 done
 number = 10
-output_list = []
 
-output_list.append("Hello!")
+print("Hello!", end=" ")
 
 while number >= 2:
-    output_list.append(str(number))
+    print(number, end=" ")
     number -= 2
-
-output_string = ' '.join(output_list)
-print(output_string)
 
 print()  # To move to the next line after the output
 
