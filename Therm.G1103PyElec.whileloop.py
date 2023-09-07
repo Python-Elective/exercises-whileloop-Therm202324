@@ -11,7 +11,7 @@ print("Hello!", end=" ")
 while number >= 2:
     print(number, end=" ")
     number -= 2
-print()  # To move to the next line after the output
+print() 
 
 #solve Evercise 3 done
 end = 9
