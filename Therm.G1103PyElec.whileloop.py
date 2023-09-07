@@ -1,7 +1,7 @@
 #solve Exercise 1 done
 number = 2
 while number <= 10:
-    print(number, end=" ")
+    print(number)
     number += 2
 print("Goodbye!")
 
